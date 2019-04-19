@@ -1,0 +1,17 @@
+Failed to upgrade pip.
+
+
+[SSL: TLSV1_ALERT_PROTOCOL_VERSION]
+
+Solve:
+Upgrade `pip` with 
+
+```
+pip install --upgrade pip
+```
+If this failed try this
+```
+curl https://bootstrap.pypa.io/get-pip.py | python
+```
+
+Curl and pass the file to python.
